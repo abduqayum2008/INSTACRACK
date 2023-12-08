@@ -14,7 +14,7 @@ from instagpy import InstaGPy
 logging.basicConfig(level=logging.INFO)
 from keyboards.inlines.accses import true_false, follow_button, like_button, view_button, comment_button, payment_type_select
 
-API_TOKEN = '6762535664:AAE3Hj6U2Tbse-sG5AJkL02slEA_xlPiLkQ'
+API_TOKEN = '1111111111111111111111111111111111'
 
 bot = Bot(token=API_TOKEN, parse_mode="HTML")
 dp = Dispatcher(bot, storage=MemoryStorage())
